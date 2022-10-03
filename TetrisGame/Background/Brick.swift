@@ -72,7 +72,5 @@ class Brick {
 		
 		let random = Int.random(in: 0..<7)
 		return bricks[random]
-		
-
 	}
 }

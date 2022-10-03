@@ -11,6 +11,8 @@ import GameplayKit
 class GameScene: SKScene {
 
 	var leftButton : LeftButton?
+	var rightButton : RightButton?
+	var rotationButton : RotationButton?
 	override func didMove(to view: SKView) {
 		
 		Variables.scene = self
@@ -18,6 +20,9 @@ class GameScene: SKScene {
 		_ = BrickGenerator()
 		
 		leftButton = LeftButton()
+		rightButton = RightButton()
+		rotationButton = RotationButton()
+		
 		checkBrick()
 	}
 	
@@ -35,6 +40,12 @@ class GameScene: SKScene {
 		for item in node {
 			if item.name == "left" {
 				leftButton?.brickMoveLeft()
+			}
+			if item.name == "right" {
+				rightButton?.brickMoveRight()
+			}
+			if item.name == "rotation" {
+				rotationButton?.brickRotation()
 			}
 		}
 		

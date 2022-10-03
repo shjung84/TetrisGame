@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5717955328EB128E009F35D2 /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717955228EB128E009F35D2 /* LeftButton.swift */; };
+		5717955528EB21DC009F35D2 /* rightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717955428EB21DC009F35D2 /* rightButton.swift */; };
+		5717955728EB27CF009F35D2 /* RotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717955628EB27CF009F35D2 /* RotationButton.swift */; };
 		57CAE79A28E1EC6700DE7207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE79928E1EC6700DE7207 /* AppDelegate.swift */; };
 		57CAE7A028E1EC6700DE7207 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE79F28E1EC6700DE7207 /* GameScene.swift */; };
 		57CAE7A228E1EC6700DE7207 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE7A128E1EC6700DE7207 /* GameViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		5717955228EB128E009F35D2 /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
+		5717955428EB21DC009F35D2 /* rightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightButton.swift; sourceTree = "<group>"; };
+		5717955628EB27CF009F35D2 /* RotationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationButton.swift; sourceTree = "<group>"; };
 		57CAE79628E1EC6700DE7207 /* TetrisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CAE79928E1EC6700DE7207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CAE79F28E1EC6700DE7207 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				5717955228EB128E009F35D2 /* LeftButton.swift */,
+				5717955428EB21DC009F35D2 /* rightButton.swift */,
+				5717955628EB27CF009F35D2 /* RotationButton.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -178,9 +184,11 @@
 				57CAE7A028E1EC6700DE7207 /* GameScene.swift in Sources */,
 				57CAE7A228E1EC6700DE7207 /* GameViewController.swift in Sources */,
 				5717955328EB128E009F35D2 /* LeftButton.swift in Sources */,
+				5717955528EB21DC009F35D2 /* rightButton.swift in Sources */,
 				57CAE79A28E1EC6700DE7207 /* AppDelegate.swift in Sources */,
 				57CAE7B928E1F64500DE7207 /* BrickGenerator.swift in Sources */,
 				57CAE7B228E1EE8C00DE7207 /* BackGround.swift in Sources */,
+				5717955728EB27CF009F35D2 /* RotationButton.swift in Sources */,
 				57CAE7B528E1F10800DE7207 /* Variables.swift in Sources */,
 				57CAE7B728E1F1A000DE7207 /* Brick.swift in Sources */,
 			);
