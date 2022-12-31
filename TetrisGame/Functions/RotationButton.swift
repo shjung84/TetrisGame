@@ -63,13 +63,18 @@ class RotationButton {
 			Variables.brickArrays = rotatedBrick
 		}
 		anim()
-		for item in Variables.backarrays {
-			print(item)
-		}
+		print("rotation")
+
+//		for item in Variables.backarrays {
+//			print(item)
+//		}
 	}
 	
 	func isRotatable() -> Bool {
 		if Variables.brickValue.brickName == "brick5" {
+			print(Variables.brickValue.brickName)
+
+			print("되냐 안되냐 ~~~~~~~~~~~~")
 			return false
 		}
 		let sinX = CGFloat(1)

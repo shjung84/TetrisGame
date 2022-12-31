@@ -10,6 +10,17 @@
 		5717955328EB128E009F35D2 /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717955228EB128E009F35D2 /* LeftButton.swift */; };
 		5717955528EB21DC009F35D2 /* rightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717955428EB21DC009F35D2 /* rightButton.swift */; };
 		5717955728EB27CF009F35D2 /* RotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717955628EB27CF009F35D2 /* RotationButton.swift */; };
+		57730C8E291FF56300CBD746 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57730C8D291FF56300CBD746 /* GameOver.swift */; };
+		57730C922921335C00CBD746 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57730C912921335C00CBD746 /* GameOver.sks */; };
+		57730C942921368B00CBD746 /* StopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57730C932921368B00CBD746 /* StopButton.swift */; };
+		57730C962921395500CBD746 /* NextBricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57730C952921395500CBD746 /* NextBricks.swift */; };
+		57730C9829213FDD00CBD746 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57730C9729213FDD00CBD746 /* Sounds.swift */; };
+		57730C9F292140AB00CBD746 /* rotation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57730C9A292140AA00CBD746 /* rotation.mp3 */; };
+		57730CA0292140AB00CBD746 /* bg_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57730C9B292140AA00CBD746 /* bg_sound.mp3 */; };
+		57730CA1292140AB00CBD746 /* down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57730C9C292140AB00CBD746 /* down.mp3 */; };
+		57730CA2292140AB00CBD746 /* move.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57730C9D292140AB00CBD746 /* move.mp3 */; };
+		57730CA3292140AB00CBD746 /* delete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57730C9E292140AB00CBD746 /* delete.wav */; };
+		57730CA52921495D00CBD746 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57730CA42921495D00CBD746 /* Fire.sks */; };
 		57CAE79A28E1EC6700DE7207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE79928E1EC6700DE7207 /* AppDelegate.swift */; };
 		57CAE7A028E1EC6700DE7207 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE79F28E1EC6700DE7207 /* GameScene.swift */; };
 		57CAE7A228E1EC6700DE7207 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE7A128E1EC6700DE7207 /* GameViewController.swift */; };
@@ -20,12 +31,24 @@
 		57CAE7B528E1F10800DE7207 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE7B428E1F10800DE7207 /* Variables.swift */; };
 		57CAE7B728E1F1A000DE7207 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE7B628E1F1A000DE7207 /* Brick.swift */; };
 		57CAE7B928E1F64500DE7207 /* BrickGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CAE7B828E1F64500DE7207 /* BrickGenerator.swift */; };
+		57E3A221291413AB0044216E /* DownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E3A220291413AB0044216E /* DownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5717955228EB128E009F35D2 /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
 		5717955428EB21DC009F35D2 /* rightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightButton.swift; sourceTree = "<group>"; };
 		5717955628EB27CF009F35D2 /* RotationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationButton.swift; sourceTree = "<group>"; };
+		57730C8D291FF56300CBD746 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		57730C912921335C00CBD746 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		57730C932921368B00CBD746 /* StopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
+		57730C952921395500CBD746 /* NextBricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextBricks.swift; sourceTree = "<group>"; };
+		57730C9729213FDD00CBD746 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		57730C9A292140AA00CBD746 /* rotation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rotation.mp3; sourceTree = "<group>"; };
+		57730C9B292140AA00CBD746 /* bg_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg_sound.mp3; sourceTree = "<group>"; };
+		57730C9C292140AB00CBD746 /* down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = down.mp3; sourceTree = "<group>"; };
+		57730C9D292140AB00CBD746 /* move.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = move.mp3; sourceTree = "<group>"; };
+		57730C9E292140AB00CBD746 /* delete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = delete.wav; sourceTree = "<group>"; };
+		57730CA42921495D00CBD746 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		57CAE79628E1EC6700DE7207 /* TetrisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CAE79928E1EC6700DE7207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CAE79F28E1EC6700DE7207 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -37,6 +60,7 @@
 		57CAE7B428E1F10800DE7207 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		57CAE7B628E1F1A000DE7207 /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
 		57CAE7B828E1F64500DE7207 /* BrickGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGenerator.swift; sourceTree = "<group>"; };
+		57E3A220291413AB0044216E /* DownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +80,42 @@
 				5717955228EB128E009F35D2 /* LeftButton.swift */,
 				5717955428EB21DC009F35D2 /* rightButton.swift */,
 				5717955628EB27CF009F35D2 /* RotationButton.swift */,
+				57E3A220291413AB0044216E /* DownButton.swift */,
+				57730C932921368B00CBD746 /* StopButton.swift */,
+				57730C952921395500CBD746 /* NextBricks.swift */,
+				57730C9729213FDD00CBD746 /* Sounds.swift */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		57730C8C291FF54600CBD746 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				57CAE79F28E1EC6700DE7207 /* GameScene.swift */,
+				57730C8D291FF56300CBD746 /* GameOver.swift */,
+				57730C912921335C00CBD746 /* GameOver.sks */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		57730C992921407A00CBD746 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				57730C9B292140AA00CBD746 /* bg_sound.mp3 */,
+				57730C9E292140AB00CBD746 /* delete.wav */,
+				57730C9C292140AB00CBD746 /* down.mp3 */,
+				57730C9D292140AB00CBD746 /* move.mp3 */,
+				57730C9A292140AA00CBD746 /* rotation.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		57730CA6292149CF00CBD746 /* emitter */ = {
+			isa = PBXGroup;
+			children = (
+				57730CA42921495D00CBD746 /* Fire.sks */,
+			);
+			path = emitter;
 			sourceTree = "<group>";
 		};
 		57CAE78D28E1EC6700DE7207 = {
@@ -79,11 +137,13 @@
 		57CAE79828E1EC6700DE7207 /* TetrisGame */ = {
 			isa = PBXGroup;
 			children = (
+				57730CA6292149CF00CBD746 /* emitter */,
+				57730C992921407A00CBD746 /* Sounds */,
+				57730C8C291FF54600CBD746 /* Scene */,
 				5717955128EB1273009F35D2 /* Functions */,
 				57CAE7B328E1F0E200DE7207 /* Variables */,
 				57CAE7B028E1EE6500DE7207 /* Background */,
 				57CAE79928E1EC6700DE7207 /* AppDelegate.swift */,
-				57CAE79F28E1EC6700DE7207 /* GameScene.swift */,
 				57CAE7A128E1EC6700DE7207 /* GameViewController.swift */,
 				57CAE7A328E1EC6700DE7207 /* Main.storyboard */,
 				57CAE7A628E1EC6800DE7207 /* Assets.xcassets */,
@@ -168,8 +228,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57730C922921335C00CBD746 /* GameOver.sks in Resources */,
 				57CAE7A528E1EC6700DE7207 /* Main.storyboard in Resources */,
 				57CAE7A728E1EC6800DE7207 /* Assets.xcassets in Resources */,
+				57730CA52921495D00CBD746 /* Fire.sks in Resources */,
+				57730CA0292140AB00CBD746 /* bg_sound.mp3 in Resources */,
+				57730CA3292140AB00CBD746 /* delete.wav in Resources */,
+				57730C9F292140AB00CBD746 /* rotation.mp3 in Resources */,
+				57730CA2292140AB00CBD746 /* move.mp3 in Resources */,
+				57730CA1292140AB00CBD746 /* down.mp3 in Resources */,
 				57CAE7AA28E1EC6800DE7207 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,12 +250,17 @@
 			files = (
 				57CAE7A028E1EC6700DE7207 /* GameScene.swift in Sources */,
 				57CAE7A228E1EC6700DE7207 /* GameViewController.swift in Sources */,
+				57730C942921368B00CBD746 /* StopButton.swift in Sources */,
 				5717955328EB128E009F35D2 /* LeftButton.swift in Sources */,
+				57730C8E291FF56300CBD746 /* GameOver.swift in Sources */,
 				5717955528EB21DC009F35D2 /* rightButton.swift in Sources */,
 				57CAE79A28E1EC6700DE7207 /* AppDelegate.swift in Sources */,
 				57CAE7B928E1F64500DE7207 /* BrickGenerator.swift in Sources */,
+				57730C962921395500CBD746 /* NextBricks.swift in Sources */,
 				57CAE7B228E1EE8C00DE7207 /* BackGround.swift in Sources */,
+				57E3A221291413AB0044216E /* DownButton.swift in Sources */,
 				5717955728EB27CF009F35D2 /* RotationButton.swift in Sources */,
+				57730C9829213FDD00CBD746 /* Sounds.swift in Sources */,
 				57CAE7B528E1F10800DE7207 /* Variables.swift in Sources */,
 				57CAE7B728E1F1A000DE7207 /* Brick.swift in Sources */,
 			);
